@@ -1,5 +1,10 @@
 import React from "react";
 // import Logo from "../assets/Logo.svg";
+import { FaPinterest } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
 
@@ -20,7 +25,8 @@ const Footer = () => {
       pathname.includes("current-vacancies") ||
       pathname.includes("job-detail") ||
       pathname.includes("my-account") ||
-      pathname.includes("services")
+      pathname.includes("services") ||
+      pathname.includes("/applying-next-page")
     )
       return true;
   }
@@ -179,7 +185,7 @@ const Footer = () => {
       </div>
       <div className="text-center p-3">
         <p className="text-white text-sm">
-          Copyright @Automotive Recruitment 2023 All Right Reserved
+          Copyright @Football Recruitment 2023 All Right Reserved
         </p>
       </div>
     </div>
